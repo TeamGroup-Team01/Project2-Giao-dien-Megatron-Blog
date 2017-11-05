@@ -3,9 +3,9 @@
 ##### Lập trình front-end giao diện Megatron Blog với file .psd (3 file)
 ### Thành viên team tham gia project 2 :
 #### + Ngô Đức (leader)
-#### + Quy Van Cao
-#### + Khoi Pham Nguyen
-#### + Vũ Đức Lộc
+#### + Quy Van Cao (member)
+#### + Khoi Pham Nguyen (member)
+#### + Vũ Đức Lộc (member)
 ### Phần công việc :
 #### *
 #### *
@@ -17,4 +17,5 @@
 #### + JAVASCRIPT (có thể sử dụng JQUERY cho hiệu ứng)
 ### Yêu cầu : 
 #### + đúng tỷ lệ theo file .psd
+#### + mỗi giao diện đều responsive
 #### + 

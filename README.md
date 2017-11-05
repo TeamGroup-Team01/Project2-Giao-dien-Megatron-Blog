@@ -19,3 +19,18 @@
 #### + đúng tỷ lệ theo file .psd
 #### + mỗi giao diện đều responsive
 #### + 
+
+### FONT USED
+Raleway
+Montserrat
+Playfair Display
+
+### ICONS
+Elegant Font
+Font Awesome
+Entypo
+
+### IMAGES
+Shutterstock
+Picjumbo
+Unplash

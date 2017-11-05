@@ -21,16 +21,16 @@
 #### + 
 
 ### FONT USED
-Raleway
-Montserrat
-Playfair Display
+##### Raleway
+##### Montserrat
+##### Playfair Display
 
 ### ICONS
-Elegant Font
-Font Awesome
-Entypo
+##### Elegant Font
+##### Font Awesome
+##### Entypo
 
 ### IMAGES
-Shutterstock
-Picjumbo
-Unplash
+##### Shutterstock
+##### Picjumbo
+##### Unplash

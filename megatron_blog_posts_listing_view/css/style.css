@@ -10,10 +10,12 @@
 	display: table;
 	clear: both;
 }
-/*HEADER*/
+
 .wrapper{
-	background: #000;
+	background: #fff;
 }
+/*HEADER*/
+
 
 header{
 	width: 1170px;
@@ -130,3 +132,39 @@ header{
 }
 
 /*END HEADER*/
+
+/*Content*/
+
+.content-wrapper{
+	width: 1170px;
+	padding: 0 55px;
+	margin: 0 auto;
+}
+
+.content-wrapper > p{
+	font-size: 11px;
+	margin: 38px 0 30px 0;
+}
+
+.content-wrapper > p span{
+	padding: 0 20px;
+	display: inline-block;
+}
+
+.content-wrapper > p span:first-child{
+	padding-left: 0;
+}
+
+.content-wrapper h1{
+	font-size: 14px;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+
+.content{
+	width: 870px;
+	height: 870px;
+	background: #f2f2f2;
+}
+
+

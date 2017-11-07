@@ -12,9 +12,9 @@
 #### + Khoi Pham Nguyen (member)
 #### + Vũ Đức Lộc (member)
 ### Phần công việc :
-#### *
-#### *
-#### *
+#### * Ngô Đức : Giao diện Megatron_blog_post_table
+#### * Quy Van Cao & Khoi Pham Nguyen : Giao dien megatron_blog_post_listing
+#### * Vũ Đức Lội : giao diện Megatron_blog_post_single
 #### *
 ### Kiến thức sử dụng :
 #### + HTML

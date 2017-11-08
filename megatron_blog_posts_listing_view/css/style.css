@@ -170,6 +170,7 @@ header{
 	background: #f2f2f2;
 	padding: 120px 20px 20px;
 	position: relative;
+	margin-bottom: 20px;
 }
 
 .post > img{
@@ -181,15 +182,24 @@ header{
 	z-index: 150;
 }
 
+
 .post-header{
+	height: 78px;
 	width: 690px;
 	background: #fff;
-	padding: 30px 0 30px 43px;
+	padding-left: 43px;
 	position: absolute;
 	top: 20px;
 	left: 0;
 	font-size: 20px;
 	font-weight: 700;
+	box-sizing: border-box;
+}
+
+.post-header div{
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
 }
 
 .post-content{

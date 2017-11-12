@@ -19,6 +19,7 @@
 
 header{
 	width: 1170px;
+	padding: 0 55px;
 	margin: 0 auto;
 	padding-bottom: 10px;
 	box-shadow: 0px 8px 5px -5px rgba(0,0,0,0.2);
@@ -136,12 +137,13 @@ header{
 
 .content-wrapper{
 	width: 1170px;
+	padding: 0 55px;
 	margin: 0 auto;
 }
 
 .content-wrapper > p{
 	font-size: 11px;
-	padding: 38px 0 30px 0;
+	margin: 38px 0 30px 0;
 }
 
 .content-wrapper > p span{
@@ -154,14 +156,13 @@ header{
 }
 
 .content-wrapper h1{
-	font-size: 16px;
+	font-size: 14px;
 	text-transform: uppercase;
 	padding-bottom: 20px;
 }
 
 .content{
-	float: left;
-	width:871px;
+	
 }
 
 .post{
@@ -281,47 +282,3 @@ header{
 
 
 
-/*SIDE BAR*/
-
-.side-bar{
-	float: right;
-}
-
-
-.side-box{
-	width: 270px;
-	border: 1px solid #d7d7d7;
-	border-top: 5px solid #d7d7d7;
-	margin-bottom: 20px;
-	padding: 25px
-}
-
-.side-box p{
-	font-size:12px;
-}
-
-.side-box li{
-	list-style: none;
-	font-size: 12px;
-	border-bottom: 1px dotted #d7d7d7;
-	padding: 1em 0;
-}
-
-.side-box li:last-child{
-	border-bottom: none;
-}
-
-.side-box li:before{
-	content:">";
-	padding-right: 8px;
-}
-
-.side-box > span{
-	border: 1px solid #d7d7d7;
-	display: inline-block;
-	padding: 0.5em 1em;
-	font-size: 12px;
-	text-transform: capitalize;
-	margin: 0 0px 2px 0;
-
-}

@@ -54,6 +54,7 @@ header{
 
 #sub-menu li{
 	display: inline-block;
+	position: relative;
 }
 
 #sub-menu li a{
@@ -90,6 +91,16 @@ header{
 	border-right: 3px solid #606060;
 	border-left: 3px solid #606060;
 	border-radius: 1px;
+}
+
+.drop-menu:after{
+	content: "";
+	border-top: 3px solid black;
+	border-left: 2px solid transparent;
+	border-right: 2px solid transparent;
+	position: absolute;
+	top:48%;
+	right: 10%;
 }
 /**/
 
@@ -128,6 +139,10 @@ header{
 	border: 2px solid rgba(0,0,0,0.2);
 	border-radius: 2px;
 	float: right;
+}
+
+.drop-menu:after{
+	content: "";
 }
 
 /*END HEADER*/
@@ -324,4 +339,72 @@ header{
 	text-transform: capitalize;
 	margin: 0 0px 2px 0;
 
+}
+
+.recent-post{
+		padding-bottom: 25px;
+}
+
+.recent-post:last-child{
+		padding-bottom: 0px;
+}
+
+.recent-post:after{
+	content: "";
+	display:block;
+	clear:both;
+}
+
+.rp-picture{
+	width: 77px;
+	height: 78px;
+	background: url(../images/77x78.gif) center center no-repeat ;
+	float: left;
+}
+
+.rp-content{
+	width: 140px;
+	padding-left: 20px;
+	float: left;
+}
+
+.rp-header{
+	font-size: 11px;
+	font-weight: 800;
+	border-bottom: 1px dotted #d7d7d7;
+	padding-bottom: 10px;
+}
+
+.rp-date{
+	padding-top: 10px;
+	color: #999;
+}
+
+.tw-post{
+	font-size: 12px;
+	padding-left: 25px;
+	position: relative;
+	margin-bottom: 15px;
+}
+
+.tw-post:last-child .tw-content{
+	border: none;
+}
+
+.tw-icon{
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 17px;
+	color: #e7e7e7;
+}
+
+.tw-content{
+	border-bottom: 1px solid #d7d7d7;
+	padding-bottom: 10px;
+}
+
+
+.tw-content a{
+	color: red;
 }

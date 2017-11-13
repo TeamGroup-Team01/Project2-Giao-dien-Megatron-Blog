@@ -367,8 +367,19 @@ footer{
 footer p{
 	text-transform: uppercase;
 	color: white;
+	padding-bottom: 25px;
 }
 
 footer li{
 	list-style: none;
+	color:#999;
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+
+footer a{
+	color: #999;
+	font-size: 12px;
+	text-transform: capitalize;
+	text-decoration: none;
 }

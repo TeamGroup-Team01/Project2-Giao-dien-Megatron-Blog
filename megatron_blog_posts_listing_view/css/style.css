@@ -434,8 +434,8 @@ footer > div{
 	display: flex;
 	margin: 0 auto;
 	background: url("../images/megatron.gif") center center no-repeat;
-	background-size: cover;
-	padding: 50px 25px;
+	background-size: 130%;
+	padding: 50px 0px;
 }
 
 footer p{
@@ -458,3 +458,48 @@ footer a{
 	text-decoration: none;
 }
 
+/*Floor*/
+.floor{
+	height: 60px;
+	width: 1170px;
+	margin: 0 auto;
+/*	background: #000;*/
+}
+
+.floor:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.floor p{
+	float: left;
+	padding-top: 20px;
+}
+
+.sl-option{
+	float: left;
+	padding-top: 20px;
+	padding-left: 50px;
+}
+
+.sl-option label{
+	padding-right: 10px;
+}
+
+.sl-option select{
+	height: 26px;
+	width: 160px;
+	padding-left: 5px;
+	border: 1px solid #f2f2f2;
+	color: rgba(0,0,0,0.6);
+}
+
+.payment{
+	float:right;
+	padding-top: 20px;
+}
+
+.payment img{
+	height: 20px;
+}
